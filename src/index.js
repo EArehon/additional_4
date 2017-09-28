@@ -27,6 +27,11 @@ module.exports = function multiply(first, second) {
 				}
 			}
 		}
+		
+		if(comp[comp.length-1] == 0)
+			comp.pop();
+			
+			
 
 		return comp.reverse().join('');
 	}
