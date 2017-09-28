@@ -19,12 +19,6 @@ module.exports = function multiply(first, second) {
 					comp[i+j] %= 10;
 					comp[i+j+1] += Math.floor(temp / 10);
 				}
-				
-				if(comp[i+j+1] >= 10){
-					let temp = comp[i+j+1];
-					comp[i+j+1] %= 10;
-					comp[i+j+2] += Math.floor(temp / 10);
-				}
 			}
 		}
 		
