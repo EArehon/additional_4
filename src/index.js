@@ -28,5 +28,5 @@ module.exports = function multiply(first, second) {
 			}
 		}
 
-		return comp.reverse();
+		return comp.reverse().join('');
 	}
